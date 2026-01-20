@@ -367,3 +367,99 @@ padding-top: 16px;
     line-height: 24px;
     font-size: 1rem;
 }
+.meet-section{
+    display: flex;
+   
+    
+}
+.meet{
+    background-color: #1A0B2E;
+    align-items: center;
+    padding-bottom: 120px;
+    
+}
+.meet h2{
+ 
+ padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 3rem;
+    color: white;
+    
+}
+.meet img{
+    width: 200px;
+    height: 200px;
+    padding-top: 40px;
+}
+.meet-section{
+    width: 1200px;
+    height: 280px;
+    background-color: #351165;
+   
+}
+.meet-alex{
+    width: 896px;
+    height: 183px;
+    
+}
+.meet-icon img{
+        width: 20px;
+    height: 20px;
+    border-radius: 20%;
+    margin-right: 5px;
+    padding-top: 16px;
+    color: red;
+}
+.meet-alex p{
+    line-height: 16px;
+    font-size: 1rem;
+    float: left;
+}
+.footer-section{
+    height: 412px;
+      background: url("../assets/footer-bg.png");
+  background-size:cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+
+color: white;
+text-align: center;
+align-content: center;
+
+}
+.footer-icon{
+    display: flex;
+   width: 632px;
+   margin-top: 32px;
+   margin-bottom: 32px;
+}
+.footer-icon h4{
+ align-items: center;
+    width: 160px;
+    height: 24px;
+    
+}
+.footer-icon img{
+    width: 24px;
+    height: 24px;
+}
+
+
+.nav-mobile,.content-tech-mobile{
+         display: none;
+            
+    }
+
+.featured-title h4{
+    color: #00ff88;
+
+}
+.featured-title img{
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+
+
