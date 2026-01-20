@@ -463,3 +463,148 @@ align-content: center;
 
 
 
+
+@media screen and (max-width:576px) {
+   
+    .nav-ber,.content-tech{
+        display: none;
+        
+    }
+    .nav-mobile{
+        height: 60px;
+        display: flex;
+        background-color: #351165;
+        justify-content: space-between;
+            
+    }
+    .nav-mobile-log0{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        
+        
+    }
+     .nav-mobile-log0 img{
+        
+        width: 24px;
+        height: 24px;
+                
+    }
+    .banner-podcast{
+        width: 500px;
+     padding-bottom: 40px;
+    }
+    .banner-card{
+        margin-top: 40px ;
+        flex-wrap: wrap;
+    }
+    .bcard1{
+        width: 180px;
+        
+    }
+.content-tech-mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 40px;
+    background-color:#230E3D;
+  
+ 
+}
+.content-premiumeeee-mobe{
+    width: 400px;
+    height: 287px;
+    margin-bottom: 16px;
+}
+.content-premiumeeee{
+    width: 400px;
+    height: 215px;
+    
+}
+.content-ex{
+    width: 400px;
+    height: 311px;
+   margin-right: 0px;
+}
+.gold{
+    margin-top: 24px;
+    margin-bottom: 16px;
+     width: 400px;
+    height: 215px;
+}
+.gold-rech{
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.feature-content{
+    display: flex;
+    flex-direction: column;
+}
+.featured-section{
+    display: flex;
+    flex-direction: column;
+}
+.featured-title h4{
+    color: #00ff88;
+
+}
+.featured-title img{
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+.meet-section{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 546px;
+    text-align: center;
+    padding-bottom: 8px;
+   
+    
+}
+.meet-alex{
+    width: 350px;
+    padding-bottom: 30px;
+}
+.meet-alex img{
+    width: 30px;
+    height: 30px;
+}
+    .meet-icon img{
+        border-radius: 50%;
+        border:1px solid #00ff88;
+         width: 20px;
+    height: 20px;
+    background: cover;
+    padding-bottom: 9px;
+    margin-top: 8px;
+    margin-bottom: 9px;
+    }
+    .footer-icon{
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px ;
+       
+    }
+    .footer-icon h4{
+        width: 154px;
+        height: 43px;
+    }
+    .footer-section{
+            height: 248px;
+      background: url("../assets/footer-bg.png");
+  background-size:cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+
+color: white;
+text-align: center;
+align-content: center;
+background-size: 700px 500px;
+
+
+
+}
+ }
