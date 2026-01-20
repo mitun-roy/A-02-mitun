@@ -660,16 +660,16 @@ background-size: 700px 500px;
 }
 .banner-content{
            height: 557px;
-        border: 1px solid red;
+        
         width: 350px;
         align-items: center;
         align-content: center;
         justify-items: center;
         padding-bottom: 39px;
-    }
+    
 }
 .nanner-title {
-    width: 430px;
+    width: 320px;
     height: 168px;
     align-content: center;
     text-align: center;
@@ -677,12 +677,16 @@ background-size: 700px 500px;
 }
 .moblietech p{
     margin-left: 30px;
+   
+    
 }
 .moblietech h3{
     margin-left: 30px;
+    
 }
 .moblietech img{
     margin-left: 30px;
+   
 }
 .banner-cercel {
     background: url(../assets/hero-circle.png);
@@ -719,5 +723,7 @@ background-size: 700px 500px;
     width: 258px;
 
 }
-
+.nanner-title h2{
+    font-size: 3rm;
+}
 }
