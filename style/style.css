@@ -39,3 +39,138 @@
     font-size: 1rem;
      color: rgb(255, 255, 255);
 }
+
+.banner{   
+    background: url("../assets/hero-bg.png");
+  background-size:cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+    
+}
+
+.banner-content{
+   
+    width: 550px;
+    height: 558px;
+}
+.banner-cercel{
+     background: url("../assets/hero-circle.png");
+  background-size:cover ;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 350px;
+    
+   
+}
+.banner-mycrophone{
+         background: url("../assets/microphone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    padding-top: 132px;
+}
+.btn-new{
+         width: 75px;
+    height: 38px;
+    border-radius: 20px;
+    float: right;
+    background-color: #00ff88;
+    margin-right: 11px;
+    margin-top: 21px;
+     transition: all 0.3s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.btn-new span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+
+
+.nanner-title{
+    
+    width: 550px;
+    height: 168px;
+    align-content: center;
+    text-align: center;
+    margin-top: 40px;
+    
+
+}
+.btn-banner{
+    margin-top: 24px;
+    width: 201px;
+    height: 44px;
+    border-radius: 30px;
+    background: linear-gradient(to right,#F7E93F, #FB09B4, #9100F8);
+    font-size: 1rem;
+}
+.btn-banner2{
+    margin-top: 24px;
+    width: 147px;
+    height: 44px;
+    border-radius: 30px;
+    font-size: 1rem;
+    justify-content: center;
+    border: 1px solid #00ff88;
+    background-color:unset;
+    color: #00ff88;
+}
+.btn-banner2 img{
+float: left;
+padding-left: 18px;
+height: 20px;
+width: 20px;
+
+}
+.btn-banner img{
+float: left;
+padding-left: 15px;
+height: 20px;
+width: 20px;
+
+
+}
+
+.btn-new span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.btn-new:hover span {
+  padding-right: 25px;
+}
+
+.btn-new:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.banner-about{
+
+height: 646px;
+background-color: #1A0B2E;
+padding-bottom: 80px;
+text-align: center;
+
+}
