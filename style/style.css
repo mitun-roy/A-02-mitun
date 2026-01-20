@@ -1,0 +1,41 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+    font-style: normal;
+}
+.nav-ber{
+     color: rgb(255, 255, 255);
+    height: 92px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(65, 37, 103, 1);
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-link{
+    text-decoration: none;
+    padding-right: 19px;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+.btn{
+    width: 135px;
+    height: 44px;
+    border-radius: 20px;
+    
+    background: linear-gradient(to right,#F7E93F, #FB09B4, #9100F8);
+    font-size: 1rem;
+     color: rgb(255, 255, 255);
+}
