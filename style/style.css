@@ -376,6 +376,7 @@ padding-top: 16px;
     background-color: #1A0B2E;
     align-items: center;
     padding-bottom: 120px;
+    justify-items: center;
     
 }
 .meet h2{
@@ -465,7 +466,7 @@ align-content: center;
 
 
 @media screen and (max-width:576px) {
-   
+ 
     .nav-ber,.content-tech{
         display: none;
         
@@ -491,10 +492,17 @@ align-content: center;
                 
     }
     .banner-podcast{
-        width: 500px;
-     padding-bottom: 40px;
+         padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+           width: 375px;
+    margin-bottom: 292px;
+   
     }
     .banner-card{
+        background-color: #351165;
+
         margin-top: 40px ;
         flex-wrap: wrap;
     }
@@ -503,39 +511,66 @@ align-content: center;
         
     }
 .content-tech-mobile{
+     padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
     display: flex;
     flex-direction: column;
     gap: 40px;
     padding-top: 40px;
     background-color:#230E3D;
+    overflow: hidden;
+    margin-top: 133px;
   
  
 }
 .content-premiumeeee-mobe{
+     padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
     width: 400px;
     height: 287px;
     margin-bottom: 16px;
+    overflow: hidden
 }
 .content-premiumeeee{
+     padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
     width: 400px;
     height: 215px;
-    
+    overflow: hidden
 }
 .content-ex{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
     width: 400px;
     height: 311px;
    margin-right: 0px;
+   overflow: hidden
 }
 .gold{
     margin-top: 24px;
     margin-bottom: 16px;
      width: 400px;
     height: 215px;
+    overflow: hidden
 }
 .gold-rech{
     margin-top: 16px;
     margin-bottom: 40px;
+    overflow: hidden
 }
+
+
+
+
+
 .feature-content{
     display: flex;
     flex-direction: column;
@@ -555,6 +590,10 @@ align-content: center;
     height: 20px;
 }
 .meet-section{
+     padding-left: 0;
+    padding-right:0;
+    margin-left: 0;
+    margin-right: 0px;
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -604,7 +643,81 @@ text-align: center;
 align-content: center;
 background-size: 700px 500px;
 
+}
+.banner-about{
+     padding-left: 0;
+    padding-right:0;
+    margin-left: 0;
+    margin-right: 0px;
+    justify-items: center;
+}
+.banner{
+        background: url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+.banner-content{
+           height: 557px;
+        border: 1px solid red;
+        width: 350px;
+        align-items: center;
+        align-content: center;
+        justify-items: center;
+        padding-bottom: 39px;
+    }
+}
+.nanner-title {
+    width: 430px;
+    height: 168px;
+    align-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.moblietech p{
+    margin-left: 30px;
+}
+.moblietech h3{
+    margin-left: 30px;
+}
+.moblietech img{
+    margin-left: 30px;
+}
+.banner-cercel {
+    background: url(../assets/hero-circle.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 310px;
+    height: 310px;
+ }
+.btn-banner
 
+ {
+    margin-top: 24px;
+    width: 175px;
+    height: 44px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    font-size: 1rem;
+}
+.btn-banner2 {
+    margin-top: 24px;
+    width: 132px;
+    height: 44px;
+    border-radius: 30px;
+    font-size: 1rem;
+    justify-content: center;
+    border: 1px solid #00ff88;
+    background-color: unset;
+    color: #00ff88;
+}
+.nanner-title p{
+     font-size: 1rem;
+    color: white;
+    width: 258px;
 
 }
- }
+
+}
